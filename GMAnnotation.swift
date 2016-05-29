@@ -1,5 +1,5 @@
 //
-//  Annotation.swift
+//  GMAnnotation.swift
 //
 //  Created by Gregg Mojica on 4/13/15.
 //  Copyright (c) 2015 Gregg Mojica. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class Annotation: NSObject, MKAnnotation {
+class GMAnnotation: NSObject, MKAnnotation {
     var title: String?
     var locationTitle: String
     var coordinate: CLLocationCoordinate2D
