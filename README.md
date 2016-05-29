@@ -3,6 +3,6 @@ GMAnnotation is an extremely simple MKAnnotation wrapper that allows you to simp
 
 ## Usage
 
-```let annotation = Annotation(title: "The Teachers' Desk", locationName: "Our Location!", coordinate: CLLocationCoordinate2D(latitude: 42.907684, longitude: -78.866279))```
+```let annotation = GMAnnotation(title: "The Teachers' Desk", locationName: "Our Location!", coordinate: CLLocationCoordinate2D(latitude: 42.907684, longitude: -78.866279))```
 ```mapView.addAnnotation(annotation)```
         
